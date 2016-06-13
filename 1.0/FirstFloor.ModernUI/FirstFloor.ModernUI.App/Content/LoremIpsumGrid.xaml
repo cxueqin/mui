@@ -13,6 +13,12 @@
             <Setter Property="VerticalAlignment" Value="Center"/>
             <Setter Property="HorizontalAlignment" Value="Center"/>
         </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Microsoft YaHei"/>
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
     </UserControl.Resources>
     <Grid ShowGridLines="True">
         <Grid.ColumnDefinitions>
@@ -31,15 +37,15 @@
                 <Setter Property="BorderThickness" Value="1"></Setter>
             </Style>
         </Grid.Resources>
-        <Label x:Name="label" Grid.Column="0" Grid.Row="0"  Content="巽(4)"/>
-        <Label x:Name="label_Copy" Content="离(9)"  Grid.Column="1" />
-        <Label x:Name="label_Copy1" Content="坤(2)" Grid.Column="2"/>
-        <Label x:Name="label_Copy2" Content="震(3)"  Grid.Row="1"  />
-        <Label x:Name="label_Copy3" Content="中"    Grid.Row="1" Grid.Column="1"  />
-        <Label x:Name="label_Copy4" Content="兑(7)" Grid.Row="1" Grid.Column="2" />
-        <Label x:Name="label_Copy5" Content="艮(8)" Grid.Row="2" />
+        <TextBlock x:Name="label" Grid.Column="0" Grid.Row="0"  Text="巽(4)"/>
+        <TextBlock x:Name="label_Copy" Text="离(9)"  Grid.Column="1" />
+        <TextBlock x:Name="label_Copy1" Text="坤(2)" Grid.Column="2"/>
+        <TextBlock x:Name="label_Copy2" Text="震(3)"  Grid.Row="1"  />
+        <TextBlock x:Name="label_Copy3" Text="中(5)"    Grid.Row="1" Grid.Column="1"  />
+        <TextBlock x:Name="label_Copy4" Text="兑(7)" Grid.Row="1" Grid.Column="2" />
+        <TextBlock x:Name="label_Copy5" Text="艮(8)" Grid.Row="2" />
         <d:Rectangle Fill="Blue" Grid.Row="2" Grid.Column="1"/>
-        <Label x:Name="label_Copy6" Content="坎(1)" Grid.Row="2" Grid.Column="1" />
-        <Label x:Name="label_Copy7" Content="乾(6)" Grid.Row="2" Grid.Column="2" />
+        <TextBlock x:Name="label_Copy6" Text="坎(1)" Grid.Row="2" Grid.Column="1" />
+        <TextBlock x:Name="label_Copy7" Text="乾(6)" Grid.Row="2" Grid.Column="2" />
     </Grid>
 </UserControl>
