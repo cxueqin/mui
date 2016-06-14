@@ -8,12 +8,12 @@ using System.Windows.Media;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ModernUI Demo App")]
-[assembly: AssemblyDescription("Demonstrating the features of Modern UI for WPF")]
-[assembly: AssemblyConfiguration("retail")]
-[assembly: AssemblyCompany("First Floor Software")]
-[assembly: AssemblyProduct("ModernUI demo")]
-[assembly: AssemblyCopyright("Copyright © First Floor Software 2013-2016")]
+[assembly: AssemblyTitle("八卦字典")]
+[assembly: AssemblyDescription("周易八卦查找工具")]
+[assembly: AssemblyConfiguration("测试")]
+[assembly: AssemblyCompany("归元文化")]
+[assembly: AssemblyProduct("八卦表")]
+[assembly: AssemblyCopyright("版权所有@归元文化 2013-2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

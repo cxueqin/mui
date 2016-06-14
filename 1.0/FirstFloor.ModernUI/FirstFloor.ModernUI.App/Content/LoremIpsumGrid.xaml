@@ -46,6 +46,6 @@
         <TextBlock x:Name="label_Copy5" Text="艮(8)" Grid.Row="2" />
         <d:Rectangle Fill="Blue" Grid.Row="2" Grid.Column="1"/>
         <TextBlock x:Name="label_Copy6" Text="坎(1)" Grid.Row="2" Grid.Column="1" />
-        <TextBlock x:Name="label_Copy7" Text="乾(6)" Grid.Row="2" Grid.Column="2" />
+        <TextBlock x:Name="label_Copy7" Text="乾(6)" Grid.Row="2" Grid.Column="2" MouseEnter="label_Copy7_MouseEnter" MouseDown="label_Copy7_MouseDown"/>
     </Grid>
 </UserControl>
