@@ -127,8 +127,8 @@
     <Compile Include="Content\ControlsStylesDate.xaml.cs">
       <DependentUpon>ControlsStylesDate.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Content\LoremIpsumGrid.xaml.cs">
-      <DependentUpon>LoremIpsumGrid.xaml</DependentUpon>
+    <Compile Include="Content\LuoShuGrid.xaml.cs">
+      <DependentUpon>LuoShuGrid.xaml</DependentUpon>
     </Compile>
     <Compile Include="Content\ModernFrame\CancelNavigateSample.xaml.cs">
       <DependentUpon>CancelNavigateSample.xaml</DependentUpon>
@@ -381,7 +381,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Content\LoremIpsumGrid.xaml">
+    <Page Include="Content\LuoShuGrid.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
