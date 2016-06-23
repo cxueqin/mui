@@ -19,11 +19,9 @@ namespace FirstFloor.ModernUI.App.Content
     /// <summary>
     /// Interaction logic for LoremIpsumSplit.xaml
     /// </summary>
-    public partial class JiuGongGe : UserControl
+    public partial class LoremIpsumGrid : UserControl
     {
-        private Rectangle border;
-
-        public JiuGongGe()
+        public LoremIpsumGrid()
         {
             InitializeComponent();
             border = new Rectangle();
