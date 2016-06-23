@@ -18,9 +18,9 @@ namespace FirstFloor.ModernUI.App.Pages
     /// <summary>
     /// Interaction logic for LayoutWireframe.xaml
     /// </summary>
-    public partial class LayoutWireframe : UserControl
+    public partial class LayoutJiuGong : UserControl
     {
-        public LayoutWireframe()
+        public LayoutJiuGong()
         {
             InitializeComponent();
         }

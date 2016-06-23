@@ -19,11 +19,15 @@ namespace FirstFloor.ModernUI.App.Content
     /// <summary>
     /// Interaction logic for LoremIpsumSplit.xaml
     /// </summary>
-    public partial class LoremIpsumGrid : UserControl
+    public partial class JiuGongGe : UserControl
     {
-        public LoremIpsumGrid()
+        private Rectangle border;
+
+        public JiuGongGe()
         {
             InitializeComponent();
+            border = new Rectangle();
+            jiugongGrid.Children.Add(border);
         }
 
         private void label_Copy7_MouseEnter(object sender, MouseEventArgs e)
@@ -42,6 +46,26 @@ namespace FirstFloor.ModernUI.App.Content
 
             dlg.Buttons = new Button[] { dlg.OkButton, dlg.CancelButton };
             dlg.ShowDialog();
+        }
+
+        private void Grid_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.OriginalSource.GetType() == typeof(TextBlock))
+            {
+                TextBlock block = (TextBlock)e.OriginalSource;
+                //DependencyProperty dpr = block.GetValue(Grid.RowProperty)
+                //DependencyProperty dpc = block.GetValue(Grid.ColumnProperty)
+
+                int row = Grid.GetRow(block);
+                int column = Grid.GetColumn(block);
+
+                border.Fill = Brushes.Red;
+                //border.setValue(Grid.RowProperty, row);
+                //border.setValue(Grid.ColumnProperty, column);
+                Grid.SetColumn(border, column);
+                Grid.SetRow(border, row);
+                Grid.SetZIndex(border, -10);
+            }
         }
     }
 }

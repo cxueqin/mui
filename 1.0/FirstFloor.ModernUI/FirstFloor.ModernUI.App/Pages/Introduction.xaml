@@ -9,10 +9,10 @@
     <Grid Style="{StaticResource ContentRoot}">
         <ScrollViewer>
             <StackPanel >
-                <TextBlock Text="MODERN UI FOR WPF" Style="{StaticResource Heading1}" Margin="0,0,0,8"/>
-                <mui:BBCodeBlock BBCode="[b]Modern UI for WPF[/b], a set of controls and styles converting your WPF application into a great looking Modern UI app.&#13;&#10;&#13;&#10;This open source project is a spin-off of [url=http://xamlspy.com]XAML Spy[/url], the visual runtime inspector for Silverlight, Windows Phone, Windows Store and WPF.&#13;&#10;&#13;&#10;See the [url=https://github.com/firstfloorsoftware/mui/wiki]online documentation[/url] to learn more about how to incorporate [b]Modern UI for WPF[/b] into your applications." Margin="0,0,0,32" />
-                <TextBlock Text="APPEARANCE" Style="{StaticResource Heading2}" />
-                <mui:BBCodeBlock BBCode="The appearance of Modern UI styled windows can be changed on the fly. Make sure you visit the [url=/Pages/Settings.xaml]settings[/url] to adapt the appearance to your preference." Margin="0,0,0,32"/>
+                <TextBlock Style="{StaticResource Heading1}" Margin="0,0,0,8" Text="周易"/>
+                <mui:BBCodeBlock BBCode="[b]周易[/b], 乃中华文化之源。一阴一阳之谓道。易有太极，是生两仪，两仪生四象，四象生八卦，八卦定吉凶，吉凶生大业。八卦成列，象在其中矣。因而重之，爻在其中矣。刚柔相推，变在其中矣。" Margin="0,0,0,32" />
+                <TextBlock Text="八卦" Style="{StaticResource Heading1}" />
+                <mui:BBCodeBlock BBCode="古者包羲氏之王天下也，仰则观象於天，俯则观法於地，近取诸身，远取诸物，於是始作八卦。周文王在狱中七年，推演八卦，写下卦辞和爻辞。" Margin="0,0,0,32"/>
             </StackPanel>
         </ScrollViewer>
     </Grid>

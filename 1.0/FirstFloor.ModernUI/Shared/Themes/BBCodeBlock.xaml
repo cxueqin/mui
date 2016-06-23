@@ -5,6 +5,8 @@
     <Style TargetType="controls:BBCodeBlock">
         <Setter Property="TextTrimming" Value="CharacterEllipsis" />
         <Setter Property="TextWrapping" Value="Wrap" />
+        <Setter Property="FontFamily" Value="Microsoft YaHei"/>
+        <Setter Property="FontSize" Value="16"/>
     </Style>
     
 </ResourceDictionary>

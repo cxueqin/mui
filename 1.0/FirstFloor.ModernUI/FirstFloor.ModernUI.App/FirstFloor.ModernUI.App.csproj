@@ -127,8 +127,8 @@
     <Compile Include="Content\ControlsStylesDate.xaml.cs">
       <DependentUpon>ControlsStylesDate.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Content\LoremIpsumGrid.xaml.cs">
-      <DependentUpon>LoremIpsumGrid.xaml</DependentUpon>
+    <Compile Include="Content\JiuGongGe.xaml.cs">
+      <DependentUpon>JiuGongGe.xaml</DependentUpon>
     </Compile>
     <Compile Include="Content\ModernFrame\CancelNavigateSample.xaml.cs">
       <DependentUpon>CancelNavigateSample.xaml</DependentUpon>
@@ -201,8 +201,8 @@
     <Compile Include="Pages\LayoutSplit.xaml.cs">
       <DependentUpon>LayoutSplit.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\LayoutWireframe.xaml.cs">
-      <DependentUpon>LayoutWireframe.xaml</DependentUpon>
+    <Compile Include="Pages\LayoutJiuGong.xaml.cs">
+      <DependentUpon>LayoutJiuGong.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\LayoutTab.xaml.cs">
       <DependentUpon>LayoutTab.xaml</DependentUpon>
@@ -381,7 +381,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Content\LoremIpsumGrid.xaml">
+    <Page Include="Content\JiuGongGe.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -461,7 +461,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\LayoutWireframe.xaml">
+    <Page Include="Pages\LayoutJiuGong.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
